@@ -1,0 +1,139 @@
+@font-face{
+    font-family: "kindergarden";
+    src: url("./assets/kindergarten.ttf")
+}
+body{
+    background-color: #38286c;
+    margin: 0px;
+
+}
+h2, h1, h3{
+    color:#47fa95d4;
+    font-family: kindergarden;
+}
+h1{
+    font-size: 5rem;
+}
+.svg-icon{
+    max-width: 60px;
+    filter: invert(67%) sepia(12%) saturate(7492%) hue-rotate(219deg) brightness(98%) contrast(93%);
+    margin: 3%;
+}
+.info{
+    margin: auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+.zoom{
+    transition: 0.1s ease-in-out;
+}
+.nonbinary{
+    text-decoration-line: underline;
+    text-decoration-style:dashed;
+}
+.nonbinary:hover{
+    -webkit-animation: nb 2s infinite;
+    -ms-animation: nb 2s infinite;
+    -o-animation: nb 2s infinite;
+    animation: nb 2s infinite;
+}
+    @-webkit-keyframes nb {
+        0% {color: yellow;}
+        25% {color: #ffffff;}
+        50% {color: #9900ff;}
+        75% {color: #000000;}
+        100%{color:#e1ff00}
+    }
+    @-ms-keyframes nb {
+        0% {color: yellow;}
+        25% {color: #ffffff;}
+        50% {color: #9900ff;}
+        75% {color: #000000;}
+        100%{color:#e1ff00}
+    }
+    @-o-keyframes nb {
+        0% {color: yellow;}
+        25% {color: #ffffff;}
+        50% {color: #9900ff;}
+        75% {color: #000000;}
+        100%{color:#e1ff00}
+    }
+    @keyframes nb{
+        0% {color: yellow;}
+        25% {color: #ffffff;}
+        50% {color: #9900ff;}
+        75% {color: #000000;}
+        100%{color:#e1ff00}
+    }
+    
+.zoom:hover {
+    -webkit-animation:rainbow 0.4s infinite;
+    -ms-animation:rainbow 0.4s infinite;
+    -o-animation:rainbow 0.4s infinite;
+    animation:rainbow 0.6s infinite;
+    transform: scale(1.1)
+    }
+    @-webkit-keyframes rainbow {
+        0% {color: #47fa95;}
+        10% {color: #6aff00;}
+        20% {color: #fff700;}
+        30% {color: #ff6600;}
+        40% {color: #ff0000;}
+        50% {color: #ff009d;}
+        60% {color: #9900ff;}
+        70% {color: #0080ff;}
+        80% {color: #0095ff;}
+        90% {color: #00d0ff;}
+        100% {color: #47fa95;}
+    }
+    @-ms-keyframes rainbow {
+        0% {color: #47fa95;}
+        10% {color: #6aff00;}
+        20% {color: #fff700;}
+        30% {color: #ff6600;}
+        40% {color: #ff0000;}
+        50% {color: #ff009d;}
+        60% {color: #9900ff;}
+        70% {color: #0080ff;}
+        80% {color: #0095ff;}
+        90% {color: #00d0ff;}
+        100% {color: #47fa95;}
+    }
+    @-o-keyframes rainbow {
+        0% {color: #47fa95;}
+        10% {color: #6aff00;}
+        20% {color: #fff700;}
+        30% {color: #ff6600;}
+        40% {color: #ff0000;}
+        50% {color: #ff009d;}
+        60% {color: #9900ff;}
+        70% {color: #0080ff;}
+        80% {color: #0095ff;}
+        90% {color: #00d0ff;}
+        100% {color: #47fa95;}
+    }
+    @keyframes rainbow {
+        0% {color: #47fa95;}
+        10% {color: #6aff00;}
+        20% {color: #fff700;}
+        30% {color: #ff6600;}
+        40% {color: #ff0000;}
+        50% {color: #ff009d;}
+        60% {color: #9900ff;}
+        70% {color: #0080ff;}
+        80% {color: #0095ff;}
+        90% {color: #00d0ff;}
+        100% {color: #47fa95;}
+    }
+
+    @media (max-width: 620px) {
+
+      }
